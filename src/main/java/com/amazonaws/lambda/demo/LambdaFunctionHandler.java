@@ -13,7 +13,7 @@ public class LambdaFunctionHandler implements RequestHandler<Object, String> {
         context.getLogger().log("Input: " + input);
         LocalDateTime date = LocalDateTime.now();
         String name = "Haeron"+input+date;
-        return "Hello from Lambda!"+name;
+        return "HaeronSakthi@gmail.com!"+name;
     }
     
    
